@@ -83,4 +83,9 @@ public class CropManager : MonoBehaviour
     {
         throw new NotImplementedException();
     }
+
+    internal bool TryGetBlockAtPosition(Vector3Int cellPosition, out CropBlock block)
+    {
+        throw new NotImplementedException();
+    }
 }
